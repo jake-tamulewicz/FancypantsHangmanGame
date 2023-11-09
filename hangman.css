@@ -1,0 +1,77 @@
+body {
+  background: url('background.gif') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Dancing Script', cursive; /* This is an example of a handwriting font */
+}
+
+main {
+  max-width: 610px;
+  margin: auto;
+}
+
+h1, h5, #guessBox, .button, #word, #guesses, .guess {
+  color: white; 
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em; 
+}
+
+h5 {
+  text-align: center;
+  margin-top: -10px;
+}
+
+#word, #guesses {
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.guess {
+  padding: 10px;
+  display: inline-block;
+  border: 2px solid orange;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#guessBox {
+  height: 60px;
+  border-radius: 10px;
+  padding-top: 5px;
+  font-size: 18pt;
+  width: 200px;
+  padding-left: 10px;
+  border: 2px solid orange; 
+  background: transparent;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: orange; /* Change background color to orange */
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover, .button:active {
+  background-color: darkorange; /* Darker orange on hover/active */
+}
+
+.win {
+  background-color: green; /* Keep win background green for contrast */
+}
+
+.loss {
+  background-color: red; /* Keep loss background red for contrast */
+}
